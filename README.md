@@ -1,56 +1,108 @@
-# Customer-Churn-Analysis-Dashboard
-Customer Churn Analysis Dashboard
+# 📊Customer-Churn-Analysis-Dashboard
+🔍 Project Overview
 
-📌 Project Overview
+The Customer Churn Dashboard is an interactive business intelligence tool developed to help companies understand and reduce customer churn. Built using Power BI, with data pre-processed in Python (Pandas, NumPy) on Google Colab, this dashboard provides both high-level trends and detailed customer-level analysis.
 
-This project focuses on analyzing customer churn using Exploratory Data Analysis (EDA) and presenting insights through an interactive dashboard. The analysis includes data preprocessing, cleaning, and visualization, performed in Google Colab, followed by dashboard development to display key metrics and trends.
+The dashboard enables stakeholders to explore key patterns in customer behavior, identify high-risk segments, and take proactive decisions to improve customer retention.
 
-🎯 Features
+🎯 Objectives
 
-Data Preprocessing & Cleaning: Handled missing values, outliers, and feature engineering.
+Analyze and visualize customer churn across demographics, services, and billing factors.
 
-Exploratory Data Analysis (EDA): Performed statistical summaries and visualized trends using Matplotlib and Seaborn.
+Identify common trends among churned customers.
 
-Interactive Dashboard: Built using Power BI.
+Provide a customer-level lookup tool for churn analysis.
 
-Customer Churn Insights: Displays key KPIs, churn rate trends, and factor analysis.
+Enable actionable insights for business teams using an intuitive interface.
 
-User-Friendly Interface: Simple and intuitive UI for easy data exploration.
+🛠️ Tools and Technologies Used
 
-🛠️ Tech Stack
+Component	Tools/Technologies
+Data Source	CSV File (Telco Customer Churn Dataset)
+Data Cleaning	Python (Pandas, NumPy) via Google Colab
+Visualization	Power BI Desktop
 
-Google Colab: Used for EDA, data preprocessing, and visualization.
+📁 Dataset
 
-Python: Primary programming language.
+Source: Telco Customer Churn Dataset – Kaggle
 
-Pandas, NumPy: Data manipulation and processing.
+Features Include:
 
-Matplotlib, Seaborn: Data visualization.
+Demographics (Gender, Age, SeniorCitizen)
 
-Power BI: For building the dashboard.
+Services (Phone, Internet, Streaming)
 
-Scikit-learn (if applicable): Used for any predictive modeling.
+Billing (MonthlyCharges, TotalCharges, ContractType)
 
-📂 Dataset Information
+Churn Label (Yes/No)
 
-The dataset contains customer details, usage patterns, and churn labels.
+📄 Dashboard Pages Overview
 
-Main features include customer demographics, service usage, billing info, and churn status.
+📌 Page 1: Churn Analysis Overview
 
-🚀 Run the Dashboard
+KPIs: Total Customers, Churned Customers, Churn Rate
 
-Since the dashboard is built using Power BI, open the .pbix file in Power BI Desktop to explore the visualizations.
+Filters: Gender, Contract Type, Internet Service, Tenure Group, etc.
 
-📊 Usage Guide
+Visuals: Pie Charts, Bar Graphs, Clustered Columns, and Time Trends
 
-Open the Power BI file in Power BI Desktop.
+Comparative Insights: Churn vs Non-Churn
 
-Connect the dataset (if required) or use the preloaded one.
+🔎 Page 2: Individual Customer Lookup
 
-Explore churn insights, visualize key trends, and interact with the data.
+Enter Customer ID to view churned customer details
 
-🔥 Future Enhancements
+Information Includes:
 
-Add predictive modeling to forecast churn probabilities.
+Personal and Demographic Details
 
-Deploy dashboard online for public access.
+Contract and Billing Info
+
+Services Subscribed
+
+
+Helps support teams understand why a specific customer may have left
+
+📊 Key Features
+
+Dynamic filters and slicers for interactive exploration
+
+Drill-downs for deeper insights
+
+Real-time lookup of customer records
+
+Clean and business-ready visual design
+
+📝 How to Use
+Open Google Colab and run data_cleaning.ipynb to preprocess the dataset.
+
+Download the cleaned CSV and open Power BI Desktop.
+
+Load the dataset and open customer_churn_dashboard.pbix.
+
+Explore the dashboard:
+
+Use filters to view churn insights.
+
+Go to Page 2 and input a Customer ID for individual analysis.
+
+📷 Dashboard Preview
+![image](https://github.com/user-attachments/assets/cb284560-ea64-4e29-85ee-373a966a0315)
+
+
+
+
+![image](https://github.com/user-attachments/assets/3a4bd707-0383-45a9-9b71-a3bce170090d)
+
+
+📌 Use Cases
+
+Identify customer segments most likely to churn.
+
+Enable support teams to understand individual churn cases.
+
+Inform retention strategies based on data-driven insights.
+
+🤝 Contributions
+
+Have suggestions or want to contribute? Fork the repository, make your changes, and submit a pull request.
